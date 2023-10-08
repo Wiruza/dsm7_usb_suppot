@@ -16,10 +16,6 @@ sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/main/modules
 sudo insmod /lib/modules/ch341.ko
 sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/main/modules/apollolake/dsm-7.2/cp210x.ko
 sudo insmod /lib/modules/cp210x.ko
-sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/main/modules/apollolake/dsm-7.2/pl2303.ko
-sudo insmod /lib/modules/pl2303.ko
-sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/main/modules/apollolake/dsm-7.2/ti_usb_3410_5052.ko
-sudo insmod /lib/modules/ti_usb_3410_5052.ko
 
 # Configure an autoload script
 
